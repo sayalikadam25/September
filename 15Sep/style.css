@@ -1,0 +1,52 @@
+/* Universal selector - Applies global styling */
+*{
+    color:blue;
+}
+
+/* Type selector or element selector */
+h3{
+    color: red;
+}
+p{
+    background-color: black;
+    color: white;
+}
+
+/* Class selector */
+.sayali{
+    background-color: bisque;
+    color: red;
+    font-size: 20px;
+    height: 300px;
+    margin: 20px;
+}
+.kadam{
+    background-color: aqua;
+}
+
+/* ID selector */
+#sayali{
+    color:blueviolet;
+}
+
+#my-btn{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+/* Pseudo class selector */
+#my-btn a:hover{
+    background-color: blue;
+    color: white;
+}
+#my-btn a:active{
+    background-color: green;
+}
+#my-btn a:visited{
+    color: hotpink;
+}
+#my-list>li:nth-child(even){
+    color: red;
+}
