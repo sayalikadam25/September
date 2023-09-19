@@ -1,0 +1,61 @@
+#eg1{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    /* position: fixed;
+    top: 100px;
+    /* left: 0px; */
+} 
+#whatsapp-icon{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: #3fc250;
+    bottom:20px;
+    right:20px;
+}
+#nav{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top:0px;
+
+}
+#box-1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+#box-6{
+    position: fixed;
+    bottom: 0px;
+    right:0px;
+    background-color: blue;
+    height:400px;
+    width: 400px;
+}
+#box-7{
+    position: fixed;
+    bottom: 0px;
+    right:0px;
+    background-color: red;
+    height:300px;
+    width: 300px;
+}
+#box-8{
+    position: fixed;
+    bottom: 0px;
+    right:0px;
+    background-color: pink;
+    height:200px;
+    width: 200px;
+}
