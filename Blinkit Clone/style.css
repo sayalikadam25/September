@@ -1,0 +1,15 @@
+/* .vertical-line{
+
+} */
+nav{
+    position: sticky;
+}
+#display-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#categories{
+    display: flex;
+    
+}

@@ -1,0 +1,77 @@
+.box{
+    background-color: blue;
+    width:200px;
+    height: 200px;
+    /* transition: all 5s ease; */
+    /* transition: width 2s ease,height 10s ease; */
+    transition: width 2s ease 2s;
+}
+.box:hover{
+    background-color: red;
+    width:300px;
+    height:300px;
+}
+.btn{
+    background-color:blueviolet;
+    padding:20px;
+    color:white;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 10px;
+    transition: opacity 1s linear;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+.btn:active{
+    opacity: 0.3;
+}
+.box-1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 10px solid green;
+    transition: all 2s ease 2s;
+}
+.box-1:hover{
+    border: 20px solid pink;
+}
+.box-2{
+    background-color: blue;
+    width:200px;
+    height: 200px;
+    transition: background-color 1s ease,width 2s linear,height 3s ease;
+}
+.box-2:hover{
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+}
+.text{
+    color: black;
+    transition: color 2s ease;
+}
+.text:hover{
+    color: brown;
+}
+.box-3{
+    height: 300px;
+    width:300px;
+    background-color: blue;
+    box-shadow: 3px 2px 3px red;
+    transition: box-shadow 2s ease;
+}
+.box-3:hover{
+    box-shadow: 3px 2px 20px green;
+}
+.box-4{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 5px solid blue;
+    transition: all 2s linear;
+}
+.box-4:hover{
+    transform: rotate(720deg);
+}
